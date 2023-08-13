@@ -26,7 +26,8 @@ jobs:
     steps:
       - run:
           name: Run service
-          command: npm start & pid=$! && sleep 600 && kill $pid 2>/dev/null || true
+          command: npm start || true
+          # command: npm start & pid=$! && sleep 600 && kill $pid 2>/dev/null || true
 #           node server.js & pid=$! && sleep 60 && kill $pid & pm2 logs & pid=$! && sleep 60 && kill $pid 2>/dev/null || true
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
