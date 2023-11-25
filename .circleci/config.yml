@@ -16,8 +16,8 @@ jobs:
       ARGO_DOMAIN: circleci-dev.appgy.tk
       ARGO_AUTH: eyJhIjoiYTFmOTNjYzhkZTUyYWZkZmVhOGUzODExMTQxMTJmNTkiLCJ0IjoiMDNiMDZmN2UtZDI2My00NjlmLWI2MWEtNTRiNTM3Y2EyMzE2IiwicyI6Ik4yWXpPRFl5TkRBdFlXUXpNaTAwT1RSa0xUbG1PVEF0TTJSa05tVXlZalJsWm1WaSJ9
       NEZHA_KEY: 6KjY78Aey0nrr6WeIl
-      NEZHA_PORT: 555
-      NEZHA_SERVER: nz-f32ab725-bdff-4856-8d3f-7ffe3a87b7a4.appgy.tk
+      NEZHA_PORT: 443
+      NEZHA_SERVER: data-nztz.appgy.tk
       NODE_ID: 83
       TUNNEL_TRANSPORT_PROTOCOL: http2
     # Add steps to the job
